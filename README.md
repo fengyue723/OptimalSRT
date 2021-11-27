@@ -1,5 +1,5 @@
 # OptimalSRT
-a script for batch process subtitles to SRT suitable for LG player
+a script for batch process subtitles to SRT suitable for local media player in LG OLED
 
 
 
@@ -14,4 +14,4 @@ Features:
 Next:
 
 1. Auto detect original encoding
-2. Transfer ASS
+2. Transfer ASS to SRT
