@@ -1,4 +1,4 @@
-# optimalSRT
+# OptimalSRT
 a script for batch process subtitles to SRT suitable for LG player
 
 
