@@ -51,7 +51,7 @@ else:
                     for line in fin:
                         new_line = strinfo.sub('', line)
                         if "-->" in new_line:
-                            if new_line in time_zone_queue.queue:
+                            while new_line in time_zone_queue.queue:
                                 new_line_list = new_line.split()
                                 new_line = " ".join(new_line_list[:-1] + [time_shrink(new_line_list[-1])])+"\n"
                                 # print("xxxxxxxxxxx", time_zone_queue.queue)
