@@ -59,7 +59,7 @@ else:
                                 time_zone_queue.get()
                             time_zone_queue.put(new_line)
                         elif new_line.startswith("m "):
-                            new_line = ""
+                            new_line = " \n"
                         fout.write(strinfo.sub('', new_line))
             
             # 删除原字幕
